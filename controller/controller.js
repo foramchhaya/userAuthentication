@@ -23,7 +23,7 @@ class Controller {
             if (err) {
                 throw err;
             } else {
-                res.redirect("/home");
+                res.redirect("/");
             }
         });
     };
